@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    #oi{
+        background-image: url('C:\calculadora\img.png');
+    }
+</style>
+<body>
+    <img src="img.png">
+    <div id="oi">
+    <form method="post">
+        <ul>
+            </br></br>
+            <h1>Calculadora</h1>
+            </br></br>
+            <ul>
+                <label>
+                    Primeiro Número:
+                    <input type="number" name="num1">
+                </label>
+                </br>
+                <label>
+                    Segundo Número:
+                    <input type="number" name="num2">
+                </label>
+            </ul>
+            </br></br>
+            </br></br>
+            <ul>
+                <label>
+                    Operação:
+                    <select name="operacao"></br>
+                </label>
+                    <option hidden value="vazio"></option>
+                    <option value="Soma">Soma</option>
+                    <option value="Subtração">Subtração</option>
+                    <option value="Multiplicação">Multiplicação</option>
+                    <option value="Divisão">Divisão</option>
+                </select>
+            </ul>
+            </br></br>
+            <ul>
+                <input type="submit" name="Enviar">
+            </ul>
+        </ul>
+    </form>
+    </div>
+</body>
+</html>
